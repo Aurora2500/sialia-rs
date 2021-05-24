@@ -1,0 +1,18 @@
+[package]
+name = "sialia"
+version = "0.1.0"
+authors = ["Aurora <programming.aurora@gmail.com>"]
+edition = "2018"
+description = "An API wrapper for the Twitter API"
+license = "MIT"
+repository = "https://github.com/Aurora2500/sialia-rs"
+readme = "README.md"
+keywords = ["API", "twitter", "bot"]
+categories = ["api-bindings"]
+
+[dependencies]
+oauth2 = "4.0.0"
+tokio = "1.6.0"
+reqwest = { version = "0.11.3", features = ["json"] }
+serde_json = "1.0.64"
+
