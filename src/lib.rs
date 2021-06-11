@@ -5,3 +5,7 @@
 
 #![deny(missing_docs)]
 
+pub mod client;
+pub mod model;
+
+pub mod error;
